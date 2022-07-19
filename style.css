@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*-----------------
+Common Styles
+------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 1350px;
+}
+
+/* Banner Section Styling */
+.banner-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffeded;
+    border-radius: 30px;
+    padding:0px 80px;
+    padding-top:30px;
+    margin:50px 0px;
+}
+.banner-info{
+    width: 50%;
+}
+.banner-info h1{
+    font-size: 65px;
+}
+.watch-btn{
+    background-color: #6F6AF8;
+    color:#fff;
+    border: none;
+    padding:15px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top:30px;
+}
+.banner-image img{
+    margin-bottom: -6px;
+}
