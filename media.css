@@ -184,8 +184,12 @@ Media Quries
     /*Shown here on mobile device*/
     .footer-social{
         display: flex;
+        margin-top: 10px;
     }
     .footer-social li>a{
         margin-left:10px;
+    }
+    .footer-social .fa-brands{
+        font-size: 25px;
     }
 }
