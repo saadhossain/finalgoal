@@ -33,7 +33,6 @@ Media Quries
     .side-navbar{
         display: flex;
         gap: 20px;
-        width: auto;
         height: auto;
         background-color:transparent;
         padding:0px;
@@ -129,7 +128,6 @@ Media Quries
     Sidebar/Navbar Styling
     ----------------------*/
     .side-navbar{
-        width: auto;
         background-color:transparent;
         padding:0px;
     }

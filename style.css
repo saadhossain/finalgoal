@@ -95,7 +95,6 @@ Sidebar/Navbar Styling
     background-color: #ffeded;
     border-radius: 10px;
     height: 260px;
-    width: 312px;
 }
 .side-navbar li{
     list-style: none;
@@ -240,10 +239,25 @@ Upcoming Match page styling
 
 /* Group Page Styles */
 .groups-area{
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .groups{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
+}
+.group-single {
+    padding: 30px 30px;
+    text-align: center;
+}
+
+.country{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.country img{
+    width: 50px;
+    margin-right:20px;
 }
