@@ -8,6 +8,7 @@ Common Styles
 ------------------*/
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x:hidden;
 }
 main{
     display: flex;

@@ -39,7 +39,7 @@ Media Quries
         display: flex;
         gap: 20px;
         height: auto;
-        background-color: transparent;
+        background-image: none;
         padding: 0px;
     }
 
@@ -150,8 +150,8 @@ Media Quries
     Sidebar/Navbar Styling
     ----------------------*/
     .side-navbar {
-        background-color: transparent;
         padding: 0px;
+        background-image: none;
     }
 
     .side-navbar a {
