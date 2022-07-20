@@ -30,6 +30,7 @@ Banner Section Styling
     border-radius: 30px;
     padding:0px 80px;
     padding-top:30px;
+    padding-bottom: 10px;
     margin:50px 0px;
 }
 .banner-info{
@@ -53,9 +54,25 @@ Banner Section Styling
     background-color: #4F4AE8;
 }
 .banner-image img{
-    margin-bottom: -6px;
+    margin-bottom: -16px;
 }
-
+/*floating Animation on image*/
+@keyframes float {
+    0% {
+      transform: translatex(0px);
+    }
+    50% {
+      transform: translatex(-20px);
+    }
+    100% {
+      transform: translatex(0px);
+    }
+  }
+  
+  .banner-image img {
+    animation: float 5s ease-in-out infinite;
+    transform: translatex(0px);
+  }
 /*---------------------
 Blog Section Styling
 ----------------------*/
