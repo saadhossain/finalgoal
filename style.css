@@ -121,6 +121,11 @@ Sidebar/Navbar Styling
     background-color: #6F6AF8;
     color:#fff;
 }
+.side-navbar a:active{
+    background-color: #6F6AF8;
+    color:#fff;
+}
+
 /*---------------
 Blogs Styling
 ---------------*/
@@ -237,7 +242,7 @@ Upcoming Match page styling
 
 /* Group Page Styles */
 .groups-area{
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .group-single {
     padding: 30px 30px;
