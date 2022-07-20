@@ -26,7 +26,8 @@ Banner Section Styling
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffc1c1;
+    /* background-color: #ffc1c1; */
+    background-image:linear-gradient(to top,#ffc5c5,#d39fff);
     border-radius: 30px;
     padding:20px 80px;
     margin:50px 0px;
@@ -90,7 +91,8 @@ Sidebar/Navbar Styling
 ----------------------*/
 .side-navbar{
     padding:30px;
-    background-color: #ffc1c1;
+    /* background-color: #ffc1c1; */
+    background-image: linear-gradient(to top,#ffc5c5,#d39fff);
     border-radius: 10px;
     height: 260px;
 }
