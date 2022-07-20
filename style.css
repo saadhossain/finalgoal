@@ -2,7 +2,7 @@
     margin:0;
     padding: 0;
 }
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /*-----------------
 Common Styles
 ------------------*/
@@ -126,23 +126,31 @@ and matches schedule wrapper
 }
 .blog-thumb img{
     width: 100%;
+    border-radius: 15px 15px 0px 0px;
 }
 .blog-info{
     padding:20px;
 }
+.blog-info h3{
+    font-size: 18px;
+    font-weight: 600;
+    color:#161616;
+    margin:20px 0px;
+}
 .blog-btn{
     border: 1px solid #787878;
     border-radius: 5px;
-    padding:5px 10px;
+    padding:5px 15px;
     background: transparent;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
+    color: #161616;
 }
 .blog-meta{
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
 }
+
 .blog-meta .hour{
     margin-right:30px;
 }
