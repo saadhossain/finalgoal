@@ -2,7 +2,7 @@
     margin:0;
     padding: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
 /*-----------------
 Common Styles
 ------------------*/
@@ -19,7 +19,9 @@ main{
     width: 1350px;
 }
 
-/* Banner Section Styling */
+/*---------------------
+Banner Section Styling
+----------------------*/
 .banner-area{
     display: flex;
     justify-content: space-between;
@@ -44,7 +46,179 @@ main{
     border-radius: 5px;
     font-size: 20px;
     margin-top:30px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.watch-btn:hover{
+    background-color: #4F4AE8;
 }
 .banner-image img{
     margin-bottom: -6px;
+}
+
+/*---------------------
+Blog Section Styling
+----------------------*/
+
+/*---------------------------------------
+Blog area from index/main page and
+match schedule from upcoming page styles
+----------------------------------------*/
+.blog-area, .upcoming-match, .groups-area{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+/*----------------------
+Sidebar/Navbar Styling
+----------------------*/
+.side-navbar{
+    padding:30px;
+    background-color: #ffeded;
+    border-radius: 10px;
+    height: 260px;
+    width: 312px;
+}
+.side-navbar li{
+    list-style: none;
+}
+.side-navbar a{
+    text-decoration: none;
+    width: 252px;
+    height: 64px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #161616;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: all 0.5s ease-in-out;
+}
+.side-navbar .active{
+    background-color: #6F6AF8;
+    color:#fff;
+}
+.side-navbar a:hover{
+    background-color: #6F6AF8;
+    color:#fff;
+}
+/*---------------
+Blogs Styling
+---------------*/
+
+/*------------------------------------
+Combind Styles for both blogs wrapper
+and matches schedule wrapper
+-------------------------------------*/
+.blogs, .matches, .groups{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.blog-single, .match-single, .group-single{
+    border: 1px solid #E8E8E8;
+    border-radius: 15px;
+}
+.blog-thumb img{
+    width: 100%;
+}
+.blog-info{
+    padding:20px;
+}
+.blog-btn{
+    border: 1px solid #787878;
+    border-radius: 5px;
+    padding:5px 10px;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 500;
+}
+.blog-meta{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.blog-meta .hour{
+    margin-right:30px;
+}
+
+/*Blog Section View All button- hidden on both desktop and mobile view*/
+.view-btn{
+    display: none;
+}
+
+/* Footer Section Styles */
+/* To arrange all footer elements center */
+footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #161616;
+    padding:80px 0px;
+}
+.footer-brand img{
+    width: 40px;
+    height: 40px;
+}
+.footer-brand h3{
+    color:#fff;
+    margin-left:10px;
+}
+hr{
+    border: 1px solid #2E2E2E;
+    margin:30px 0px;
+}
+.footer-area li{
+    list-style: none;
+}
+.footer-area a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:#B3B3B3;
+    margin-right: 20px;
+}
+.footer-brand, .footer-nav, .footer-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Hidden on both desktop and tablet device */
+.footer-social{
+    display: none;
+}
+
+/*---------------------------
+Upcoming Match page styling
+----------------------------*/
+.match-single, .group-single{
+    padding:60px 40px;
+    text-align: center;
+}
+.flags{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flags h4{
+    margin:0px 10px;
+}
+.match-details{
+    margin-top:20px;
+}
+
+
+/* Group Page Styles */
+.groups-area{
+    justify-content: space-evenly;
+}
+.groups{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 }
