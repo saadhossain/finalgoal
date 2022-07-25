@@ -112,6 +112,7 @@ Media Quries
     .banner-area {
         flex-direction: column;
         padding: 10px 20px;
+        margin:20px 0px;
     }
 
     .banner-info {
